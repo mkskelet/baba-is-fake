@@ -1,0 +1,142 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Scripts/LevelController.cs" type="Script" id=1]
+[ext_resource path="res://movables/baba.tscn" type="PackedScene" id=2]
+[ext_resource path="res://movables/rock.tscn" type="PackedScene" id=3]
+[ext_resource path="res://movables/wall.tscn" type="PackedScene" id=4]
+[ext_resource path="res://movables/flag.tscn" type="PackedScene" id=5]
+[ext_resource path="res://movables/w_baba.tscn" type="PackedScene" id=6]
+[ext_resource path="res://movables/w_is.tscn" type="PackedScene" id=7]
+[ext_resource path="res://movables/w_you.tscn" type="PackedScene" id=8]
+[ext_resource path="res://movables/w_rock.tscn" type="PackedScene" id=9]
+[ext_resource path="res://movables/w_wall.tscn" type="PackedScene" id=10]
+[ext_resource path="res://movables/w_flag.tscn" type="PackedScene" id=11]
+[ext_resource path="res://movables/w_push.tscn" type="PackedScene" id=12]
+[ext_resource path="res://movables/w_stop.tscn" type="PackedScene" id=13]
+[ext_resource path="res://movables/w_win.tscn" type="PackedScene" id=14]
+
+[node name="LevelRoot" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ],
+"_edit_vertical_guides_": [  ]
+}
+
+[node name="baba" parent="." instance=ExtResource( 2 )]
+position = Vector2( 299, 273 )
+scale = Vector2( 0.406, 0.406 )
+Object = 1
+
+[node name="rock" parent="." instance=ExtResource( 3 )]
+position = Vector2( 429, 247 )
+
+[node name="rock2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 429, 273 )
+
+[node name="rock3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 429, 299 )
+
+[node name="wall" parent="." instance=ExtResource( 4 )]
+position = Vector2( 558.984, 325 )
+
+[node name="wall19" parent="." instance=ExtResource( 4 )]
+position = Vector2( 558.984, 221 )
+
+[node name="wall2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 299, 325 )
+
+[node name="wall12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 299, 221 )
+
+[node name="wall3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 325, 325 )
+
+[node name="wall13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 325, 221 )
+
+[node name="wall4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 351, 325 )
+
+[node name="wall16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 351, 221 )
+
+[node name="wall5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 377, 325 )
+
+[node name="wall14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 377, 221 )
+
+[node name="wall6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 403, 325 )
+
+[node name="wall15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 403, 221 )
+
+[node name="wall7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 429, 325 )
+
+[node name="wall18" parent="." instance=ExtResource( 4 )]
+position = Vector2( 429, 221 )
+
+[node name="wall8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 455, 325 )
+
+[node name="wall21" parent="." instance=ExtResource( 4 )]
+position = Vector2( 455, 221 )
+
+[node name="wall9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 481, 325 )
+
+[node name="wall17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 481, 221 )
+
+[node name="wall10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 507, 325 )
+
+[node name="wall22" parent="." instance=ExtResource( 4 )]
+position = Vector2( 507, 221 )
+
+[node name="wall11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 533, 325 )
+
+[node name="wall20" parent="." instance=ExtResource( 4 )]
+position = Vector2( 533, 221 )
+
+[node name="flag" parent="." instance=ExtResource( 5 )]
+position = Vector2( 533, 273 )
+
+[node name="w_baba" parent="." instance=ExtResource( 6 )]
+position = Vector2( 299, 169 )
+
+[node name="w_is" parent="." instance=ExtResource( 7 )]
+position = Vector2( 325, 169 )
+
+[node name="w_is3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 533, 169 )
+
+[node name="w_is4" parent="." instance=ExtResource( 7 )]
+position = Vector2( 325, 377 )
+
+[node name="w_is2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 533, 377 )
+
+[node name="w_you" parent="." instance=ExtResource( 8 )]
+position = Vector2( 351, 169 )
+
+[node name="w_rock" parent="." instance=ExtResource( 9 )]
+position = Vector2( 507, 377 )
+
+[node name="w_wall" parent="." instance=ExtResource( 10 )]
+position = Vector2( 299, 377 )
+
+[node name="w_flag" parent="." instance=ExtResource( 11 )]
+position = Vector2( 507, 169 )
+
+[node name="w_push" parent="." instance=ExtResource( 12 )]
+position = Vector2( 559, 377 )
+
+[node name="w_stop" parent="." instance=ExtResource( 13 )]
+position = Vector2( 351, 377 )
+
+[node name="w_win" parent="." instance=ExtResource( 14 )]
+position = Vector2( 559, 169 )

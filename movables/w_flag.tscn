@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://art/w_flag.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Word.cs" type="Script" id=2]
+
+[node name="w_flag" type="Sprite"]
+position = Vector2( 325, 91 )
+scale = Vector2( 0.406, 0.406 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+Object = 3
