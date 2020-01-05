@@ -1,0 +1,12 @@
+.git/
+.import/
+.mono/
+.vscode
+.vs/
+mono/
+builds/
+
+*.csproj
+*.sln
+
+export_presets.cfg

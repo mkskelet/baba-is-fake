@@ -1,5 +1,0 @@
-E:\Projects\Godot\BabaIsFake\.mono\temp\bin\Debug\BabaIsFake.dll
-E:\Projects\Godot\BabaIsFake\.mono\temp\bin\Debug\BabaIsFake.pdb
-E:\Projects\Godot\BabaIsFake\.mono\temp\obj\Debug\BabaIsFake.csprojAssemblyReference.cache
-E:\Projects\Godot\BabaIsFake\.mono\temp\obj\Debug\BabaIsFake.dll
-E:\Projects\Godot\BabaIsFake\.mono\temp\obj\Debug\BabaIsFake.pdb
