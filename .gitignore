@@ -3,8 +3,6 @@
 .mono/
 .vscode
 .vs/
-mono/
-builds/
 
 *.csproj
 *.sln
